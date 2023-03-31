@@ -1,6 +1,6 @@
 # Sequence to Sequence Model Training & Evaluation
 
-This repository provides code for training and evaluating models for grammatical error correction for the Ukrainian language.
+This repository provides code for training and evaluating Sequence to Sequence models for grammatical error correction for the Ukrainian language.
 
 It is mainly based on `PyTorch` and `transformers`.
 
