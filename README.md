@@ -1,6 +1,6 @@
 # Sequence to Sequence Model Training & Evaluation
 
-This repository provides code for training and evaluating Sequence to Sequence models for grammatical error correction for the Ukrainian language.
+This repository provides code for training Sequence to Sequence models for grammatical error correction for the Ukrainian language.
 
 It is mainly based on `PyTorch` and `transformers`.
 
@@ -29,3 +29,7 @@ To train the models, first initialize the trainer with specified paths to the in
 Then, run the driver function to launch the process. You need to have a valid [HuggingFace](https://huggingface.co/) write access token to save your model.
 
 `trainer.main()`
+
+## Evaluation
+
+For evaluation, we used the UNLP 2023 Shared Task, which can be found [here](https://github.com/asivokon/unlp-2023-shared-task).
